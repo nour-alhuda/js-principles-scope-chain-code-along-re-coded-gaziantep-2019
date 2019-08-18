@@ -19,9 +19,10 @@
   function changeLeastFavoriteCustomer(){
     leastFavoriteCustomer = 'Sami';
   } 
+  
   let favoriteCustomer = 'Amer';
   function attemptTwoFavoriteCustomers() {
     let favoriteCustomer ='Ali';
-    throw ('SyntaxError');
+    throw SyntaxError(SyntaxError);
   }
   
